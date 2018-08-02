@@ -144,7 +144,7 @@ h1{
 
 /* Font-family + size aanpassingen */
 
-.logo-header, .fontsengrootte, .titelkleuren, .screendesignheader, .infofotos, .acteursheader, .knoppen {
+.logo-header, .fontsengrootte, .titelkleuren, .screendesignheader, .infofotos, .boeksheader, .knoppen {
     font-size: 40pt;
     margin-bottom: 100px;
 }
@@ -169,7 +169,6 @@ h1{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-
 .sourcesansprotitel, .sourcesansprosubtitel {
     font-size: 26pt;
     font-weight: bold;
@@ -178,7 +177,6 @@ h1{
 .sourcesansprosubtitel {
     font-size: 18pt;
 }
-
 
 
 .sourcesanspromaintext {
@@ -224,8 +222,7 @@ h1{
 }
 
 
-
-.fotos_acteurs {
+.fotos_boeken {
     width: 500px;
 }
 
@@ -267,7 +264,7 @@ h1{
     text-align: center;
 }
 
-.acteurrij1, .acteurrij2, .acteurrij3, .acteurrij4, .acteurrij5, .acteurrij6, .acteurrij6, .acteurrij7, .acteurrij8, .acteurrij9, .acteurrij10, .acteurrij11, .acteurrij12 {
+.boekrij1, .boekrij2, .boekrij3, .boekrij4, .boekrij5, .boekrij6, .boekrij6, .boekrij7, .boekrij8, .boekrij9, .boekrij10, .boekrij11, .boekrij12 {
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -275,11 +272,11 @@ h1{
     padding: 6px;
 }
 
-.acteurrij12 {
+.boekrij12 {
     padding-bottom: 100px;
 }
 
-.acteursheader {
+.boeksheader {
     text-align: center;
     margin: 100px 0 100px;
 }
@@ -298,3 +295,5 @@ h1{
     width: 400px;
     height: auto;
 }
+
+
