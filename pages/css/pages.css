@@ -16,3 +16,285 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* Code for intro.html */
+
+.intro {
+    margin: auto;
+    max-width: 1250px;
+    padding: 60px;
+}
+
+.intro-header {
+    color: hsla(271, 64%, 64%, 1);
+    background-color: black;
+    text-align: center;
+    font-size: 37pt;
+    padding: 50px;
+    line-height: 80px;
+    border-radius: 25px;
+}
+
+.infostudent {
+    padding: 0 0 20px;
+}
+
+/* Code for concurrentie.html */
+a:visited {
+    color:purple;
+}
+.titel {
+    color: hsla(271, 64%, 64%, 1);
+    background-color: black;
+    text-align: center;
+    padding: 80px;
+    font-size: 36pt;
+    line-height: 100px;
+    border-radius: 25px;
+    
+}
+.concurrentie-breedte {
+    max-width: 1250px;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+.concurrentie {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    max-width: 450px;
+    
+}
+
+.positive {
+    color: white;
+    background-color: green;
+    margin: 0 10px 0 10px;
+    max-width: 500px;
+    min-height: 250px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.negative {
+    color: white;
+    background-color: red;
+    margin: 0 10px 0 10px;
+    max-width: 500px;
+    min-height: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+
+/* plaats de rode en groene kaders onder elkaar */
+
+.justify-positive-negative {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Code Scenarios */
+
+.titlescenarios {
+    color: hsla(271, 64%, 64%, 1);
+    background-color: black;
+    text-align: center;
+    font-size: 70pt;
+    padding: 160px;
+    margin: 0 0 50px;
+    border-radius: 25px;
+}
+
+.container-scenarios {
+    margin-left: 50px;
+    max-width: 620px;
+    max-height: 401px;
+}
+h1{
+    font-family: 'Source Sans Pro', monospace;
+}
+
+/* Code voor styleguide */
+
+.hoofding {
+    text-align: center;
+    font-size: 60pt;
+    color: #fcfcfc;
+    background-color: #262626;
+    margin: 0;
+    padding: 160px;
+}
+
+.logo {
+    text-align: center;
+    color: #fcfcfc;
+    background-color: #000000;
+    margin-top: 0;
+    padding: 50px 50px 90px 50px;
+}
+
+/* Font-family + size aanpassingen */
+
+.logo-header, .fontsengrootte, .titelkleuren, .screendesignheader, .infofotos, .acteursheader, .knoppen {
+    font-size: 40pt;
+    margin-bottom: 100px;
+}
+
+.fontsengrootte {
+    text-align: center;
+    margin: 90px 0 30px;
+}
+
+.font-container {
+    margin: auto;
+    width: 900px;
+}
+
+.fonts, .fonts2 {
+    width: 400px;
+    float: left;
+    margin: 20px;
+}
+
+.sourcesansprotitel, .sourcesansprosubtitel, .sourcesanspromaintext {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.sourcesansprotitel, .sourcesansprosubtitel {
+    font-size: 26pt;
+    font-weight: bold;
+}
+
+.sourcesansprosubtitel {
+    font-size: 18pt;
+}
+
+
+
+.sourcesanspromaintext {
+    font-size: 11pt;
+}
+
+/* zet de gekleurde cirkels naast elkaar */
+
+.justify-colorsamples {
+    text-align: center;
+    max-width: 900px;
+    max-height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    clear: both
+}
+
+.titelkleuren {
+    clear: both;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.kleur1, .kleur2, .kleur3, .kleur4 {
+    background-color: #000000;
+    min-width: 120px;
+    min-height: 120px;
+    border-radius: 50%;
+}
+
+.kleur2 {
+    background-color: #FFFFFF;
+    border: 0.1px solid #000000;
+}
+
+.kleur3 {
+    background-color: #A468DE;
+}
+
+.kleur4 {
+    background-color: #7D7D7C;
+}
+
+
+
+.fotos_acteurs {
+    width: 500px;
+}
+
+.screendesigns {
+    margin: auto;
+    text-align: center;
+    width: 900px;
+    padding-bottom: 100px;
+}
+
+.screendesignheader {
+    margin-top: 150px;
+}
+
+.infofotos-container {
+    color: #fcfcfc;
+    background-color: #262626;
+    padding: 50px 0 100px;
+}
+
+.infofotos {
+    text-align: center;
+}
+
+.infofotos-eersterij {
+    margin: auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infofotos-2derij {
+    margin: auto;
+    padding: 60px 0 60px;
+    max-width: 900px;
+}
+
+.infofotos-3derij {
+    text-align: center;
+}
+
+.acteurrij1, .acteurrij2, .acteurrij3, .acteurrij4, .acteurrij5, .acteurrij6, .acteurrij6, .acteurrij7, .acteurrij8, .acteurrij9, .acteurrij10, .acteurrij11, .acteurrij12 {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    padding: 6px;
+}
+
+.acteurrij12 {
+    padding-bottom: 100px;
+}
+
+.acteursheader {
+    text-align: center;
+    margin: 100px 0 100px;
+}
+
+.knoppen-container {
+    text-align: center;
+    margin: 100px;
+    
+}
+
+.knoppen {
+    margin-bottom: 100px;
+    width: 100px;
+}
+.resize {
+    width: 400px;
+    height: auto;
+}
