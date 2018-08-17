@@ -165,21 +165,21 @@ h1{
     margin: 20px;
 }
 
-.sourcesansprotitel, .sourcesansprosubtitel, .sourcesanspromaintext {
-    font-family: 'Source Sans Pro', sans-serif;
+.ralewaytitel, .ralewaysubtitel, .ralewaymaintext {
+    font-family: 'Raleway', sans-serif;
 }
 
-.sourcesansprotitel, .sourcesansprosubtitel {
+.ralewaytitel, .ralewaysubtitel {
     font-size: 26pt;
     font-weight: bold;
 }
 
-.sourcesansprosubtitel {
+.ralewaysubtitel {
     font-size: 18pt;
 }
 
 
-.sourcesanspromaintext {
+.ralewaymaintext {
     font-size: 11pt;
 }
 
@@ -264,17 +264,7 @@ h1{
     text-align: center;
 }
 
-.boekrij1, .boekrij2, .boekrij3, .boekrij4, .boekrij5, .boekrij6, .boekrij6, .boekrij7, .boekrij8, .boekrij9, .boekrij10, .boekrij11, .boekrij12 {
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    max-width: 900px;
-    padding: 6px;
-}
 
-.boekrij12 {
-    padding-bottom: 100px;
-}
 
 .boeksheader {
     text-align: center;
